@@ -24,7 +24,9 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This little project was built using [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+It is a demo of a REST API for doing CRUD operations on a list of Products.
 
 ## Installation
 
@@ -45,29 +47,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Use the application
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+To test the application:
+- go to Author - [http://localhost:3000/api](http://localhost:3000/api) 
+- In there, you can use the swagger to test the endpoints for ADD , EDIT, DELETE, or GET products
